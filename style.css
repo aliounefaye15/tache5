@@ -27,7 +27,7 @@ color: #000;
     height: 2px;
     margin: 10px;
     padding-top: 1em;
-    padding-left: 12px;
+    
     display: grid;
 }
 .div-i{
@@ -43,21 +43,18 @@ color: #000;
     text-align: center;
 }
 .about-2{
-    height: 770px;
+   
     width: 90%;
     margin: 80px;
-    padding: auto;
-    padding-top: 5em;
+    padding-top: 1em;
     display: grid;
 }
 
 .about-3{
-    height: 570px;
-    width: 1200px;
-    
    
-    padding-top: 1em;
-    display:block;
+    
+   height: 0%;
+    display: grid;
    
 }
 .about-3 button{
