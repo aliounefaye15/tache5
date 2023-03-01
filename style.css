@@ -1,59 +1,33 @@
 *{
-    padding: 0;
-    margin: 0;
+    
     box-sizing: border-box;
     font-family:"poppins", sans-serif;
 
 }
 body{
     width: 100%;
- 
     background-color: #ebe6e6;
     
-}
- h1{
-    text-align: center;
-   height: 85px;
-    
-    
-}
-.about-text h1{
-text-align: center;
-color: #000;
 
 }
-.about{
-    width: 550px;
-    height: 2px;
-    margin: 10px;
-    padding-top: 1em;
-    
-    display: grid;
-}
-.div-i{
-    padding: 10%;
-    display:flex;
-    font-size: 19px;
-    
-    margin-left: 0px;
-  
-    gap: 180px;
-    color: #716e6e;
-    align-items: right;
+h1{
     text-align: center;
 }
+.about{
+    padding: 10%;
+}
+
+
 .about-2{
    
-    width: 90%;
-    margin: 80px;
-    padding-top: 1em;
+    width: 100%;
+    
     display: grid;
 }
 
 .about-3{
-   
-    
-   height: 0%;
+height: 13px;
+    width: 100%;
     display: grid;
    
 }
@@ -66,31 +40,16 @@ color: #000;
 }
 
 .container{
-    width: 1130px;
-max-width: 95%;
-margin: 0 auto;
+   
+
+
 display: flex;
 align-items: center;
 justify-content: space-around;
 }
-
-.about-item{
-    text-align: center;
-    color: rgba(7, 7, 7, 0.822);
-
-    letter-spacing: 5px;
-    line-height: 68px;
-   
-    box-shadow: 0 0 9px rgb(8, 8, 8);
-}
-about-item h3{
-    color: rgba(19, 18, 18, 0.925);
-    letter-spacing: 5px;
-    line-height: 8px;
-}
 /* max-width, si l'ecran est inf ou egal alors {...} */
 /* max-width = desktop-first*/
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 368px) {
     .container{
      display:grid;
      grid-template-columns: repeat(1, 1fr);
